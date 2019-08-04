@@ -23,7 +23,8 @@ bool isSmaller(string str1, string str2)
 
 string findDiff(string str1, string str2) 
 
-	if (isSmaller(str1, str2)) 
+{
+if (isSmaller(str1, str2)) 
 		swap(str1, str2);  
 	string str = ""; 
 	int n1 = str1.length(), n2 = str2.length(); 
