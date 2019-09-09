@@ -22,9 +22,9 @@ cin>>t;
 				n.push_back(s);
 			}
 			sort(n.begin(),n.end(),cnum);
-			for(i=0;i<n.size();i++)
+			for(int j=0;j<n.size();j++)
 			{
-				cout<<n[i];
+				cout<<n[j];
 			}
  		}
 
